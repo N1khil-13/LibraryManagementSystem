@@ -1,0 +1,49 @@
+* Library Management System *
+
+This project is a simple Library Management System implemented in Java. It demonstrates Object-Oriented Programming (OOP) principles, SOLID design, and incorporates design patterns like Singleton (Logger) and Strategy (Search). The system manages books, patrons, and lending processes.
+
+* Project Structure
+
+src/main/java/libraryproject
+├── book
+│   └── Book.java
+├── patron
+│   └── Patron.java
+├── library
+│   └── Library.java
+├── logger
+│   └── LibraryLogger.java
+└── main
+    └── LibraryManagementSystem.java
+
+* Features
+
+-Add, remove, and search books.
+-Add patrons and track borrowing history.
+-Checkout and return books.
+-Maintain inventory of available and borrowed books.
+-Logging of important events.
+
+
+* How to Run
+
+Clone the repository.
+
+Navigate to the project root and run:
+
+gradle run
+
+* Class Diagram
+
+A class diagram showing the relationships between classes is attached in the project root, named LibraryManagementSystem.png.
+
+* Requirements
+
+Java 11+
+
+Gradle
+
+* Author
+
+Nikhil Shetty
+
